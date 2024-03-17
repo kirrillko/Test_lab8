@@ -68,13 +68,6 @@ def my_is_simple(num): # проверка числа на простоту
                 res = False
     return res
 
-def my_factorial(num): # вычисление факториала
-    a = 1
-    for i in range(1, num+1):
-        a = a * i
-    return a
-
-
 def my_sin(x):
     result = 0
     for i in range(50):
